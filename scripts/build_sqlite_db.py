@@ -26,3 +26,7 @@ conn.close()
 
 print("SQLite database created at:", DB_PATH)
 print("Tables: clients, caregivers, services, visits")
+
+# Print all the saved
+print("visits = pd.read_csv")
+
