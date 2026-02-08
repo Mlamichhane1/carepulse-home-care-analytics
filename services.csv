@@ -1,0 +1,5 @@
+service_id,service_type,duration_hours,cost
+1,Personal Care,2.0,60.0
+2,Skilled Nursing,3.0,150.0
+3,Physical Therapy,1.5,110.0
+4,Companionship,2.0,50.0
