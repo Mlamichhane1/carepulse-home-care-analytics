@@ -1,57 +1,50 @@
-# CarePulse – Home Care Operations Analytics
+# 🏥 CarePulse — Home Care Operations Analytics
 
 CarePulse is an end-to-end healthcare analytics project designed to analyze and improve home care agency operations using data-driven insights.  
-This project builds a relational SQLite database, generates operational KPIs using Python, and visualizes performance through a Power BI dashboard.
+The project combines Python, SQL, and Power BI to deliver executive-level dashboards focused on service demand, caregiver utilization, referral trends, and operational KPIs.
 
 ---
 
-## ⭐ Highlights
-- Built an automated **Python ETL pipeline** to generate and analyze operational data
-- Designed a **relational SQLite database** for clients, caregivers, visits, and services
-- Created **Power BI dashboards** for executive-level healthcare analytics
-- Produced KPI exports for churn, utilization, service demand, and enrollment trends
-- One-command pipeline execution
+## 🔎 Project Objectives
 
----
-
-## 🎯 Project Objectives
 - Analyze client enrollment and retention trends
-- Measure caregiver utilization and workforce efficiency
+- Measure caregiver workload and workforce efficiency
 - Evaluate service demand and operational performance
-- Build executive-ready BI dashboards for decision-making
+- Build executive-ready Power BI dashboards for decision-making
 
 ---
 
 ## 🧠 Tech Stack
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (SQLite relational database)
-- Power BI (Dashboard design + KPI visuals)
+
+- Python (Pandas, NumPy)
+- SQL (SQLite)
+- Microsoft Power BI
+- Power Query & Data Modeling
 - Git & GitHub
 
 ---
 
 ## 📊 Power BI Dashboard
 
-The CarePulse Power BI dashboard provides executive-level insights into home care operations including service demand, caregiver utilization, and enrollment trends.
+The CarePulse Power BI dashboard provides executive-level insights into home care operations including service demand, caregiver utilization, and referral sources.
 
-### 📌 Dashboard Overview
-![Dashboard Overview](reports/powerbi/dashboard_overview.png)
+---
 
-### 📌 Caregiver Utilization Analysis
-![Utilization Page](reports/powerbi/utilization_page.png)
+### 📌 Key Insights
+
+- Personal Care drives the highest visit volume.
+- Skilled Nursing generates the highest service revenue.
+- Referral sources are evenly distributed across Family, Hospital, Insurance, Physician, and Self.
+- KPI cards summarize:
+  - Total Visits
+  - Total Care Hours
+  - Total Service Revenue
 
 ---
 
 ## 📈 Key Analytics
+
 - Enrollment & churn analysis
-- Caregiver workload and utilization tracking
+- Caregiver workload and utilization
 - Service performance trends
 - Operational KPIs for home care agencies
-
----
-
-## ▶️ How to Run the Project
-
-### 1️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
