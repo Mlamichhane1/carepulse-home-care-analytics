@@ -1,4 +1,4 @@
-# CarePulse – Home Care Operations Analytics (Python + SQL + Power BI)
+# CarePulse – Home Care Operations Analytics
 
 CarePulse is an end-to-end healthcare analytics project designed to analyze and improve home care agency operations using data-driven insights.  
 This project builds a relational SQLite database, generates operational KPIs using Python, and visualizes performance through a Power BI dashboard.
