@@ -1,30 +1,57 @@
 # CarePulse – Home Care Operations Analytics (Python + SQL + Power BI)
 
-CarePulse is an end-to-end analytics project that models home care operations and generates KPI-ready outputs for business decision-making.
+CarePulse is an end-to-end healthcare analytics project designed to analyze and improve home care agency operations using data-driven insights.  
+This project builds a relational SQLite database, generates operational KPIs using Python, and visualizes performance through a Power BI dashboard.
+
+---
 
 ## ⭐ Highlights
-- Built a **SQLite database** from raw operational data using a Python ETL pipeline  
-- Generated **KPI exports (CSV)** and operational charts (utilization, service demand, enrollment trends)  
-- Designed a **Power BI dashboard** to track core agency performance metrics  
+- Built an automated **Python ETL pipeline** to generate and analyze operational data
+- Designed a **relational SQLite database** for clients, caregivers, visits, and services
+- Created **Power BI dashboards** for executive-level healthcare analytics
+- Produced KPI exports for churn, utilization, service demand, and enrollment trends
+- One-command pipeline execution
+
+---
 
 ## 🎯 Project Objectives
-- Analyze client enrollment and retention trends  
-- Measure caregiver utilization and workforce efficiency  
-- Evaluate service demand and operational performance  
-- Deliver executive-ready BI dashboards for decision-making  
+- Analyze client enrollment and retention trends
+- Measure caregiver utilization and workforce efficiency
+- Evaluate service demand and operational performance
+- Build executive-ready BI dashboards for decision-making
 
-## 🧰 Tech Stack
+---
+
+## 🧠 Tech Stack
 - Python (Pandas, NumPy, Matplotlib)
-- SQL (SQLite)
-- Power BI (Dashboard + DAX)
+- SQL (SQLite relational database)
+- Power BI (Dashboard design + KPI visuals)
 - Git & GitHub
 
-## 📊 Power BI Dashboard (Preview)
-> Add screenshots here after you build the dashboard  
-- `reports/powerbi/dashboard_overview.png`
-- `reports/powerbi/utilization_page.png`
+---
 
-## ▶️ How to Run
+## 📊 Power BI Dashboard
+
+The CarePulse Power BI dashboard provides executive-level insights into home care operations including service demand, caregiver utilization, and enrollment trends.
+
+### 📌 Dashboard Overview
+![Dashboard Overview](reports/powerbi/dashboard_overview.png)
+
+### 📌 Caregiver Utilization Analysis
+![Utilization Page](reports/powerbi/utilization_page.png)
+
+---
+
+## 📈 Key Analytics
+- Enrollment & churn analysis
+- Caregiver workload and utilization tracking
+- Service performance trends
+- Operational KPIs for home care agencies
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-python scripts/run_pipeline.py
