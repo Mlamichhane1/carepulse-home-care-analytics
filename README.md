@@ -1,23 +1,30 @@
-# CarePulse – Home Care Operations Analytics
+# CarePulse – Home Care Operations Analytics (Python + SQL + Power BI)
 
-CarePulse is an end-to-end healthcare analytics project designed to analyze and improve home care agency operations using data-driven insights.
+CarePulse is an end-to-end analytics project that models home care operations and generates KPI-ready outputs for business decision-making.
 
-## 🔍 Project Objectives
-- Analyze client enrollment and retention trends
-- Measure caregiver utilization and workforce efficiency
-- Evaluate service demand and operational performance
-- Build executive-ready BI dashboards for decision-making
+## ⭐ Highlights
+- Built a **SQLite database** from raw operational data using a Python ETL pipeline  
+- Generated **KPI exports (CSV)** and operational charts (utilization, service demand, enrollment trends)  
+- Designed a **Power BI dashboard** to track core agency performance metrics  
 
-## 🧠 Tech Stack
-- Python (Pandas, NumPy)
+## 🎯 Project Objectives
+- Analyze client enrollment and retention trends  
+- Measure caregiver utilization and workforce efficiency  
+- Evaluate service demand and operational performance  
+- Deliver executive-ready BI dashboards for decision-making  
+
+## 🧰 Tech Stack
+- Python (Pandas, NumPy, Matplotlib)
 - SQL (SQLite)
-- Power BI / Tableau
+- Power BI (Dashboard + DAX)
 - Git & GitHub
 
-## 📊 Key Analytics
-- Enrollment & churn analysis
-- Caregiver workload and utilization
-- Service performance trends
-- Operational KPIs for home care agencies
+## 📊 Power BI Dashboard (Preview)
+> Add screenshots here after you build the dashboard  
+- `reports/powerbi/dashboard_overview.png`
+- `reports/powerbi/utilization_page.png`
 
-## 📁 Project Structure
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python scripts/run_pipeline.py
